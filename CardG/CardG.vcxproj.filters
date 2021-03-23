@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Card">
+      <UniqueIdentifier>{8fcb9b40-379f-4694-b6b6-4b710f1b16c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Card">
+      <UniqueIdentifier>{a7f7493b-a88c-4718-ac6c-3a90f4e8a1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{c62b8292-ca95-4267-ac94-8f5f05f78992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{51188436-9f4e-4199-811e-2f4a1faa68f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State">
+      <UniqueIdentifier>{0e64c2c5-a150-4b00-8ff6-4f6292b932d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State">
+      <UniqueIdentifier>{71839daa-1384-4459-9ba0-6b00c40d72ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logger">
+      <UniqueIdentifier>{03f413b0-66b2-4707-ab8e-dc90d18c4576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logger">
+      <UniqueIdentifier>{9270cac8-6434-4b7e-9139-3907e31d0fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Settings">
+      <UniqueIdentifier>{14bf41a6-4b53-4722-ac55-50f9f4f4cd00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Settings">
+      <UniqueIdentifier>{0fbf754b-64a9-4407-8a7e-b08e91a699bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CardDeck">
+      <UniqueIdentifier>{f24a7f2d-69b3-4849-8317-5e1a53a22c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CardDeck">
+      <UniqueIdentifier>{8e83b266-1924-4194-9d17-ce09a1e78ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{41f53d41-e124-46e9-a9c7-a3b774b7d4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{4045aa71-b6ff-43d0-aaf0-e2abc92f3569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{7894cdd5-f084-4d6a-a4dc-edb82cdd8895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{7ed63c89-30a6-4f00-b3a2-5e67db95acd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test">
+      <UniqueIdentifier>{d5b0ef95-aa0c-48a8-9794-6fb308176fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{684fbefd-4d5a-4d5f-a4e8-fb6229a05783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test\Card">
+      <UniqueIdentifier>{2faaf1e0-6fd0-4905-9ec1-5974e587a908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test\TestFixture">
+      <UniqueIdentifier>{4fa71403-453e-4950-b3fb-667033c064cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test\Card">
+      <UniqueIdentifier>{e2d9210f-3bb1-445e-a53d-a6eb34d2043f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test\TestFixture">
+      <UniqueIdentifier>{a2b26e1f-0f5e-45e2-a6da-2089b7949265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test\CardDeck">
+      <UniqueIdentifier>{a633955d-0e08-4114-ae8c-9b76aeb57b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test\CardDeck">
+      <UniqueIdentifier>{4f427f5d-c605-41bc-acda-4ca7830a2d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test\Util">
+      <UniqueIdentifier>{20ce515a-9136-4228-a25c-0716a453c493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test\Util">
+      <UniqueIdentifier>{d5706ef1-e5c9-4757-b380-de5f534afc71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test\Settings">
+      <UniqueIdentifier>{1f9327c3-9c85-451d-b82b-8fd5aaa3543b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test\Settings">
+      <UniqueIdentifier>{25399dd1-d00d-4843-9523-bfe3035a578c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test\Player">
+      <UniqueIdentifier>{a80b6001-121a-4c73-810f-af9e01617874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test\Player">
+      <UniqueIdentifier>{4e5bb7cf-ede2-4c57-b7e7-8b6b9fd29422}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CardSelectionForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NameForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeCard.cpp">
+      <Filter>Source Files\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleCard.cpp">
+      <Filter>Source Files\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="MinusCard.cpp">
+      <Filter>Source Files\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="StealCard.cpp">
+      <Filter>Source Files\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusCard.cpp">
+      <Filter>Source Files\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePlayer.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualPlayer.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DealPlayerState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="DealVirtualPlayerState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="FinishedGameState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="NoGameState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStealState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTurnState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualPlayerStealState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualPlayerTurnState.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLogger.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLogger.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="CardDeck.cpp">
+      <Filter>Source Files\CardDeck</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumberGenerator.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGameEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TestForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeCardTests.cpp">
+      <Filter>Source Files\Test\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleCardTests.cpp">
+      <Filter>Source Files\Test\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="MinusCardTests.cpp">
+      <Filter>Source Files\Test\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusCardTests.cpp">
+      <Filter>Source Files\Test\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="StealCardTests.cpp">
+      <Filter>Source Files\Test\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files\Test\TestFixture</Filter>
+    </ClCompile>
+    <ClCompile Include="CardDeckTests.cpp">
+      <Filter>Source Files\Test\CardDeck</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCases.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumberGeneratorTests.cpp">
+      <Filter>Source Files\Test\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettingsTests.cpp">
+      <Filter>Source Files\Test\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePlayerTests.cpp">
+      <Filter>Source Files\Test\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualPlayerTests.cpp">
+      <Filter>Source Files\Test\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CardSelectionForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NameForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeCard.h">
+      <Filter>Header Files\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="MinusCard.h">
+      <Filter>Header Files\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleCard.h">
+      <Filter>Header Files\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusCard.h">
+      <Filter>Header Files\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="StealCard.h">
+      <Filter>Header Files\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePlayer.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DealPlayerState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="DealVirtualPlayerState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="NoGameState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStealState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTurnState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualPlayer.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualPlayerStealState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualPlayerTurnState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="FinishedGameState.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLogger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLogger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="CardDeck.h">
+      <Filter>Header Files\CardDeck</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberGenerator.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGameEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TestForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeCardTests.h">
+      <Filter>Header Files\Test\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleCardTests.h">
+      <Filter>Header Files\Test\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="MinusCardTests.h">
+      <Filter>Header Files\Test\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusCardTests.h">
+      <Filter>Header Files\Test\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="StealCardTests.h">
+      <Filter>Header Files\Test\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files\Test\TestFixture</Filter>
+    </ClInclude>
+    <ClInclude Include="CardDeckTests.h">
+      <Filter>Header Files\Test\CardDeck</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCases.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberGeneratorTests.h">
+      <Filter>Header Files\Test\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettingsTests.h">
+      <Filter>Header Files\Test\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePlayerTests.h">
+      <Filter>Header Files\Test\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualPlayerTests.h">
+      <Filter>Header Files\Test\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Graphics\Cards\BlackCardBack.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardBackFull.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardChange.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardDouble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardMinus1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardMinus2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardMinus3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardMinus4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardMinus5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardPlus1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardPlus2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardPlus3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardPlus4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardPlus5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlackCardSteal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardBack.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardBackFull.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardChange.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardDouble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardMinus1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardMinus2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardMinus3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardMinus4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardMinus5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardPlus1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardPlus2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardPlus3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardPlus4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardPlus5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\BlueCardSteal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardBack.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardBackFull.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardChange.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardDouble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardMinus1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardMinus2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardMinus3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardMinus4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardMinus5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardPlus1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardPlus2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardPlus3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardPlus4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardPlus5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\GreenCardSteal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardBack.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardBackFull.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardChange.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardDouble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardMinus1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardMinus2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardMinus3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardMinus4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardMinus5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardPlus1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardPlus2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardPlus3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardPlus4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardPlus5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Graphics\Cards\RedCardSteal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

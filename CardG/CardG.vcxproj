@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{EFA58B6F-7396-4ACC-94D6-FCF498135C37}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>CardG</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutForm.cpp" />
+    <ClCompile Include="BaseGameEngine.cpp" />
+    <ClCompile Include="BaseLogger.cpp" />
+    <ClCompile Include="BasePlayer.cpp" />
+    <ClCompile Include="BasePlayerTests.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="CardDeck.cpp" />
+    <ClCompile Include="CardDeckTests.cpp" />
+    <ClCompile Include="ChangeCard.cpp" />
+    <ClCompile Include="ChangeCardTests.cpp" />
+    <ClCompile Include="DoubleCard.cpp" />
+    <ClCompile Include="DoubleCardTests.cpp" />
+    <ClCompile Include="FileLogger.cpp" />
+    <ClCompile Include="FinishedGameState.cpp" />
+    <ClCompile Include="GameSettings.cpp" />
+    <ClCompile Include="GameSettingsTests.cpp" />
+    <ClCompile Include="MinusCard.cpp" />
+    <ClCompile Include="CardSelectionForm.cpp" />
+    <ClCompile Include="DealPlayerState.cpp" />
+    <ClCompile Include="DealVirtualPlayerState.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GameForm.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MinusCardTests.cpp" />
+    <ClCompile Include="NameForm.cpp" />
+    <ClCompile Include="NoGameState.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerStealState.cpp" />
+    <ClCompile Include="PlayerTurnState.cpp" />
+    <ClCompile Include="PlusCard.cpp" />
+    <ClCompile Include="PlusCardTests.cpp" />
+    <ClCompile Include="RandomNumberGenerator.cpp" />
+    <ClCompile Include="RandomNumberGeneratorTests.cpp" />
+    <ClCompile Include="RulesForm.cpp" />
+    <ClCompile Include="SettingsForm.cpp" />
+    <ClCompile Include="StealCard.cpp" />
+    <ClCompile Include="StealCardTests.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="TestCases.cpp" />
+    <ClCompile Include="TestForm.cpp" />
+    <ClCompile Include="VirtualPlayer.cpp" />
+    <ClCompile Include="VirtualPlayerStealState.cpp" />
+    <ClCompile Include="VirtualPlayerTests.cpp" />
+    <ClCompile Include="VirtualPlayerTurnState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BaseGameEngine.h" />
+    <ClInclude Include="BaseLogger.h" />
+    <ClInclude Include="BasePlayer.h" />
+    <ClInclude Include="BasePlayerTests.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="CardDeck.h" />
+    <ClInclude Include="CardDeckTests.h" />
+    <ClInclude Include="ChangeCard.h" />
+    <ClInclude Include="ChangeCardTests.h" />
+    <ClInclude Include="DoubleCard.h" />
+    <ClInclude Include="DoubleCardTests.h" />
+    <ClInclude Include="FileLogger.h" />
+    <ClInclude Include="FinishedGameState.h" />
+    <ClInclude Include="GameSettings.h" />
+    <ClInclude Include="GameSettingsTests.h" />
+    <ClInclude Include="MinusCard.h" />
+    <ClInclude Include="CardSelectionForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DealPlayerState.h" />
+    <ClInclude Include="DealVirtualPlayerState.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GameForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="MinusCardTests.h" />
+    <ClInclude Include="NameForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NoGameState.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerStealState.h" />
+    <ClInclude Include="PlayerTurnState.h" />
+    <ClInclude Include="PlusCard.h" />
+    <ClInclude Include="PlusCardTests.h" />
+    <ClInclude Include="RandomNumberGenerator.h" />
+    <ClInclude Include="RandomNumberGeneratorTests.h" />
+    <ClInclude Include="RulesForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SettingsForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StealCard.h" />
+    <ClInclude Include="StealCardTests.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="TestCases.h" />
+    <ClInclude Include="TestForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="VirtualPlayer.h" />
+    <ClInclude Include="VirtualPlayerStealState.h" />
+    <ClInclude Include="VirtualPlayerTests.h" />
+    <ClInclude Include="VirtualPlayerTurnState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardSelectionForm.resx">
+      <DependentUpon>CardSelectionForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameForm.resx">
+      <DependentUpon>NameForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RulesForm.resx">
+      <DependentUpon>RulesForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Graphics\Cards\BlackCardBack.png" />
+    <Image Include="..\Graphics\Cards\BlackCardBackFull.png" />
+    <Image Include="..\Graphics\Cards\BlackCardChange.png" />
+    <Image Include="..\Graphics\Cards\BlackCardDouble.png" />
+    <Image Include="..\Graphics\Cards\BlackCardMinus1.png" />
+    <Image Include="..\Graphics\Cards\BlackCardMinus2.png" />
+    <Image Include="..\Graphics\Cards\BlackCardMinus3.png" />
+    <Image Include="..\Graphics\Cards\BlackCardMinus4.png" />
+    <Image Include="..\Graphics\Cards\BlackCardMinus5.png" />
+    <Image Include="..\Graphics\Cards\BlackCardPlus1.png" />
+    <Image Include="..\Graphics\Cards\BlackCardPlus2.png" />
+    <Image Include="..\Graphics\Cards\BlackCardPlus3.png" />
+    <Image Include="..\Graphics\Cards\BlackCardPlus4.png" />
+    <Image Include="..\Graphics\Cards\BlackCardPlus5.png" />
+    <Image Include="..\Graphics\Cards\BlackCardSteal.png" />
+    <Image Include="..\Graphics\Cards\BlueCardBack.png" />
+    <Image Include="..\Graphics\Cards\BlueCardBackFull.png" />
+    <Image Include="..\Graphics\Cards\BlueCardChange.png" />
+    <Image Include="..\Graphics\Cards\BlueCardDouble.png" />
+    <Image Include="..\Graphics\Cards\BlueCardMinus1.png" />
+    <Image Include="..\Graphics\Cards\BlueCardMinus2.png" />
+    <Image Include="..\Graphics\Cards\BlueCardMinus3.png" />
+    <Image Include="..\Graphics\Cards\BlueCardMinus4.png" />
+    <Image Include="..\Graphics\Cards\BlueCardMinus5.png" />
+    <Image Include="..\Graphics\Cards\BlueCardPlus1.png" />
+    <Image Include="..\Graphics\Cards\BlueCardPlus2.png" />
+    <Image Include="..\Graphics\Cards\BlueCardPlus3.png" />
+    <Image Include="..\Graphics\Cards\BlueCardPlus4.png" />
+    <Image Include="..\Graphics\Cards\BlueCardPlus5.png" />
+    <Image Include="..\Graphics\Cards\BlueCardSteal.png" />
+    <Image Include="..\Graphics\Cards\GreenCardBack.png" />
+    <Image Include="..\Graphics\Cards\GreenCardBackFull.png" />
+    <Image Include="..\Graphics\Cards\GreenCardChange.png" />
+    <Image Include="..\Graphics\Cards\GreenCardDouble.png" />
+    <Image Include="..\Graphics\Cards\GreenCardMinus1.png" />
+    <Image Include="..\Graphics\Cards\GreenCardMinus2.png" />
+    <Image Include="..\Graphics\Cards\GreenCardMinus3.png" />
+    <Image Include="..\Graphics\Cards\GreenCardMinus4.png" />
+    <Image Include="..\Graphics\Cards\GreenCardMinus5.png" />
+    <Image Include="..\Graphics\Cards\GreenCardPlus1.png" />
+    <Image Include="..\Graphics\Cards\GreenCardPlus2.png" />
+    <Image Include="..\Graphics\Cards\GreenCardPlus3.png" />
+    <Image Include="..\Graphics\Cards\GreenCardPlus4.png" />
+    <Image Include="..\Graphics\Cards\GreenCardPlus5.png" />
+    <Image Include="..\Graphics\Cards\GreenCardSteal.png" />
+    <Image Include="..\Graphics\Cards\RedCardBack.png" />
+    <Image Include="..\Graphics\Cards\RedCardBackFull.png" />
+    <Image Include="..\Graphics\Cards\RedCardChange.png" />
+    <Image Include="..\Graphics\Cards\RedCardDouble.png" />
+    <Image Include="..\Graphics\Cards\RedCardMinus1.png" />
+    <Image Include="..\Graphics\Cards\RedCardMinus2.png" />
+    <Image Include="..\Graphics\Cards\RedCardMinus3.png" />
+    <Image Include="..\Graphics\Cards\RedCardMinus4.png" />
+    <Image Include="..\Graphics\Cards\RedCardMinus5.png" />
+    <Image Include="..\Graphics\Cards\RedCardPlus1.png" />
+    <Image Include="..\Graphics\Cards\RedCardPlus2.png" />
+    <Image Include="..\Graphics\Cards\RedCardPlus3.png" />
+    <Image Include="..\Graphics\Cards\RedCardPlus4.png" />
+    <Image Include="..\Graphics\Cards\RedCardPlus5.png" />
+    <Image Include="..\Graphics\Cards\RedCardSteal.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
